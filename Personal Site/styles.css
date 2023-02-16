@@ -1,0 +1,18 @@
+body{
+    background-color: #6764707d;
+}
+hr{
+    border-top: 8px;
+    border-style: dotted none none;
+    border-color: rgb(173, 164, 168);
+    width: 7%;
+}
+h1, h2, h3{
+    color:azure;
+}
+
+.skill-gif{
+    width: 50%;
+    height: 50%;
+}
+
