@@ -1,0 +1,15 @@
+#principal{
+    background-color: #303030;
+    width: 1440px;
+    height: 103px
+}
+a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
