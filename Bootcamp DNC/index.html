@@ -18,16 +18,41 @@
             </div>
             <button id="login" type="button">Login</button>
         </nav>
-        <h1>Bootcamp DNC</h1>
-        <p>Esse será um evento exclusivo para todos os alunos da DNC, que querem acelerar a carreira com uma semana intensiva de
-        conteúdo de mercado entre BACK-END, FRONT-END & BANCO DE DADOS.</p>
-        <form>
-            <input placeholder="Insira seu nome aqui"type="" name="" value="">
-            <input placeholder="Insira seu sobrenome aqui" type="" name="" value="">
-            <h2>Area De Interesse</h2>
-            <button type="checkbox">Front-End</button>  
-            <button type="checkbox">Back-End</button>
-            <button type="checkbox">Banco de Dados</button>
-        </form>
+        <section>
+            <header>
+                <h1>Bootcamp DNC</h1>
+                <h2>Esse será um evento exclusivo para todos os alunos <br> da <b> DNC</b>, que querem <span class="invert"> acelerar a carreira</span> com uma <br> semana intensiva de
+                    conteúdo de mercado entre <br> <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span> </h2>
+            </header>
+            <form>
+                <div class="form-group">
+                    <label for="">Nome</label>
+                    <input placeholder="Insira seu nome aqui"type="text" name="" value="">
+                </div>
+                <div class="form-group">
+                    <label for="">Sobrenome</label>
+                    <input placeholder="Insira seu sobrenome aqui" type="text" name="" value="">
+                </div>
+                <div class="area">
+                <h2>Area De Interesse</h2>
+                <input type="checkbox" name="" value="front">Front-End</input>
+                <input type="checkbox" name="" value="back">Back-End</input>
+                <input type="checkbox" name="" value="banco">Banco de Dados</input>
+                </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input placeholder="Insira seu email aqui" type="email" name="" value="">
+                </div>
+                <div class="form-group">
+                    <label for="">Telefone</label>
+                    <input placeholder="(99)99999-9999" type="text" name="" value="">
+                </div>
+                <div class="form-group">
+                    <label for="">Insira uma frase criativa</label>
+                    <input placeholder="Qual frase criativa gostaria de falar?" type="text" name="" value="">
+                </div>
+                <input type="submit" name="" value="Cadastrar">
+            </form>
+        </section>
     </body>
 </html>

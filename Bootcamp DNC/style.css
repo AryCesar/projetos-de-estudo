@@ -2,6 +2,11 @@ body{
     /*remove as margens do body para encaixar melhor a nav*/
     margin: 0;
     padding: 0;
+    /*degrade de fundo em direção para baixo, não repete e se adapta ao tamanho*/
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),
+            linear-gradient(0deg, #303030, #303030),
+            linear-gradient(0deg, #BABABA, #BABABA);
+            background-repeat: no-repeat;
 }
 #principal{
     /*barra de navegação superior e principal*/
