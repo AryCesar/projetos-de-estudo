@@ -214,3 +214,28 @@ footer .endereço{
 footer ul li a:hover{
     color: var(--cinza-hover);
 }
+footer .linha2 a{
+    font-family: var(--font-padrao);
+        font-size: 25px;
+        font-weight: 600;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 5px;
+    border-right: 3px;
+    
+}
+footer .linha2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 35px;
+}
+footer .linha2 a:hover{
+    color: var(--cinza-hover);
+}
+
+/*barrinha no lado da politica de privacidade feita usando borda somennte no primeiro filho dos a do footer linha 2*/
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+    
+}
