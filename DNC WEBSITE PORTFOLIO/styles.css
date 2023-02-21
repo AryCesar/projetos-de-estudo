@@ -135,3 +135,103 @@ a{
 #services{
     text-align: center;
 }
+.textCenter{
+    text-align: center;
+}
+#services .textCenter h3{
+    font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color:#070F18;
+}
+#services .textCenter p{
+    font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+#contactImg img{
+    width: 100%;
+    margin-top: 68px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+#contactForm h3{
+    font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F75C4E;
+        margin: 100px 0px 6px 80px;
+}
+#contactForm h1{
+    font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin: 0px 0px 6px 80px;
+        
+}
+#contactForm p{
+    font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #575455;
+        margin: 6px 0px 40px 80px;
+    }
+    #contactForm form input{
+        height: 28px;
+        width: 406px;
+        border-radius: 50px;
+        background-color: #F5F6FB;
+        margin: 0px 6px 20px 76px;
+        border: 0;
+        padding: 15px 35px 15px 35px;
+    }
+    #contactForm form button{
+        height: 48px;
+        width: 180px;
+        border-radius: 50px;
+        border: 0;
+        background-color: #1F7CFF;
+        color: #F5F6FB;
+        margin: 0px 0 0px 76px;
+    }
+    #contactForm form button:hover{
+        cursor: pointer;
+    }
+    #portfolioText h3{
+        font-family: Poppins;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F75C4E;
+    }
+    #portfolioText h1{
+        font-family: Poppins;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: left;
+
+    }
+    .portfolioImg{
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 100px;
+    }
