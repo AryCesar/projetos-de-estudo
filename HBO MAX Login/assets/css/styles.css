@@ -1,0 +1,108 @@
+/* padronização geral */
+body{
+    background-color: rgba(0, 0, 0, 0.899);
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin:25px 0 0 0;
+    padding:0;
+}
+/* texto do header */
+h3{
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+}
+h1{
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+}
+p{
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+/* padronização para inputs e labels */
+input{
+    background-color:  #7F7F7F;
+    border-radius: 25px;
+    height: 50px;
+    width: 560px;
+    border: none;
+    margin-top: 18px;
+}
+input :hover{
+    cursor: pointer;
+}
+label{
+    margin-right: 440px;
+    font-size: 33px;
+
+}
+
+/* individualização de inputs com id */
+#senha{
+    margin-bottom: 50px;
+}
+#submit{
+    background-color: #8C77E0;
+    width: 214px;
+    height: 50px;
+    font-family: Inter;
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+}
+#provedor{
+    background-color: #8C77E0;
+    margin-bottom: 76px;
+    font-family: Inter;
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+}
+#submit ,#provedor:hover{
+    cursor: pointer;
+}
+#senha,#email:hover{
+    cursor: text;
+}
+
+
+/* responsividade parcial */
+@media screen and (max-width: 900px) {
+    body{width: 400px;
+        height: 300px;
+        align-items:center;
+        text-align: center;}
+    input{width: 380px;}
+}
+@media screen and (max-width:760px){
+    body {
+            width: 400px;
+            height: 300px;
+            align-items: center;
+            text-align: center;
+        }
+    input {
+            width: 350px;
+            display: flex;
+            align-content: flex-start;
+        }
+    p{font-size: 18px;}
+    #submit{
+        display: flex;
+        align-content: center;
+    }
+}
