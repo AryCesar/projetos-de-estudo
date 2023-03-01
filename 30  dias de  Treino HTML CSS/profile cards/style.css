@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+body{
+    font-family: 'Lato', sans-serif;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+}
+.card1{
+    height: 65%;
+    width: 65%;
+    background-color:white;
+    border: 2px solid grey;
+    box-shadow: 6px 6px 8px gray;
+    overflow: hidden;
+    min-width: 250px;
+    max-width: 310px;
+    border-radius: 10px;
+    text-align: center;
+}
+.img1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 20px;
+    width: 50%;
+    height: 50%;
+    border-radius: 115px;
+    box-shadow: 2px 5px 3px #212121;
+    }
+figcaption{
+    text-align: center;
+    font-size: 1.3em;
+    color: #212121;
+    font-weight: 600;
+    font-family: 'Oswald';
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+p{
+    text-align: center;
+    font-size:14px;
+    color: #212121;
+    font-family: osva
+}
+
+.card1 .icons i{
+    color: grey;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+
+}
+.card1 .icons i:hover{
+    color: #212121;
+}
