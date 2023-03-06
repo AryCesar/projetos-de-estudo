@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/the-amazing-spider-man');
+/*configuração padronizada dos projetos*/
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin:0; /*padroniza a margem do body*/
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*seta altura pra garantir que justify content funcione*/
+    overflow:hidden ; /*esconde barra de navegação*/
+    background: radial-gradient(#B11313,#2B3784);
+}
+/*fim dos padrões*/
+#container{
+    justify-content: center;
+    display: flex;
+    width: 90vw;
+
+}
+.panels{
+    background: radial-gradient(#B11313,#2B3784);
+    box-shadow:10px 10px 10px #B11313;
+    border: 1px solid;
+    border-color: #B11313;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 80px;    
+    color: gold;
+    flex: 0.07;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    transition:flex 0.7s ease-in;
+}
+h1{ 
+    font-family: 'THE AMAZING SPIDER-MAN';
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 5px 5px 10px red;
+    color: gold;
+    height: fit-content;
+}
+a{ font-family: 'THE AMAZING SPIDER-MAN';
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 5px 5px 10px red;
+    color: gold;
+    text-decoration: none;
+
+}
+h2 {
+    font-family: 'THE AMAZING SPIDER-MAN';
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 5px 5px 10px red;
+    color: gold;
+}
+h3{
+    font-family: 'THE AMAZING SPIDER-MAN';
+    position: absolute;
+    font-size: 50px;
+    bottom: 20px;
+    left:20px;
+    text-shadow: 5px 5px 10px red;
+    margin: 0;
+    opacity: 0;
+}
+.panels.ativo{
+    box-shadow: 10px 10px 10px #2B3784;
+    flex: 0.5;
+    border: 2px solid;
+    border-color: #2B3784;
+}
+.panels.ativo h3{
+    opacity: 1;
+}
+h1:hover{
+    text-shadow: 10px 10px 10px #2B3784;
+}
+
+
+@media (max-width:480px){
+    #container{
+        width: 100vh;
+    }
+    .panels :nth-of-type(4),.panels:nth-last-of-type(5){
+        display: none;
+        
+    }
+    .panels{
+        flex: 0.15;
+    }
+}

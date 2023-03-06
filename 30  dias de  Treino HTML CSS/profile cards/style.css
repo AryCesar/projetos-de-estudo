@@ -59,4 +59,9 @@ p{
 }
 .card1 .icons i:hover{
     color: #212121;
+    
+}
+.card1:hover{
+    transition: 2s;
+    box-shadow: 30px -20px 30px rgb(137, 126, 126);
 }
