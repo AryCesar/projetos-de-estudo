@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+}
+
+.conteiner{
+    position: relative;
+    display: inline-block;
+    margin-top: 0;
+
+}
+#background{
+    margin-bottom: -5px;
+    width: 1519px;
+}
+#logo{
+    position: relative;
+    bottom: 70px;
+    right: 130px;
+}
+.logoAndMessage{
+    left:172px;
+    bottom: 273px;
+    position: absolute;
+    top: 110px;
+    color: #ffffff;
+    margin: 0px;
+    
+}
+.logoAndMessage h1{
+    font-family: Inter;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 51px;
+        letter-spacing: 0em;
+        text-align: left;
+
+}
+.logoAndMessage p{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+.rectangleCenter{
+    background-color: #EAECE5;
+    height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rectangleCenter img{
+    height: 50px;
+    width: 50px;
+
+}
+.rectangleCenter p{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-right: 120px;
+        margin-left: 20px;
+}
+#movieBackground{
+    margin-left: 150px;
+    margin-top: 57px;
+    border-radius: 5px;
+    position: relative;
+}
+#play1{
+    position: absolute;
+    left:360px;
+    top: 930px;
+
+}
+#play2{
+    position: absolute;
+    left: 390px;
+    top: 953px;
+}
+.mainConteiner{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.mainConteiner h1{
+    margin-left: 50px;
+    margin-top: 70px;
+    align-self: flex-start;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #247BA0;
+}
+.mainConteiner p {
+    position: absolute;
+    right: 290px;
+    top: 930px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#383838;
+}
+.depoimentos{
+    background-color: #247BA0;
+}
+
+.depoimentos h1{
+        margin-top: 80px;
+        color: #EAECE5;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: center;
+}
+.depoimentos img{
+    margin-top: 190px;
+    margin-left: 170px;
+    margin-bottom: 80px;
+}
